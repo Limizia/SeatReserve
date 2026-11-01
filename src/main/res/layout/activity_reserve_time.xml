@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="#F5F7FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="填写预约时间"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#1D2129"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="预约开始时间"
+        android:textSize="16sp"
+        android:textColor="#4E5969"/>
+
+    <EditText
+        android:id="@+id/et_start"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="点击选择时间"
+        android:textSize="16sp"
+        android:textColor="#1D2129"
+        android:focusable="false"
+        android:background="@drawable/bg_edit"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="预约结束时间"
+        android:textSize="16sp"
+        android:textColor="#4E5969"/>
+
+    <EditText
+        android:id="@+id/et_end"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="点击选择时间，最长4小时"
+        android:textSize="16sp"
+        android:textColor="#1D2129"
+        android:focusable="false"
+        android:background="@drawable/bg_edit"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="提交预约"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_floor_btn"/>
+
+</LinearLayout>
