@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    android:background="#F7F8FA">
+
+    <!-- 标题区域，已删除返回箭头 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自习座位预约"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#1A2033"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <!-- 预约座位 -->
+    <LinearLayout
+        android:id="@+id/btn_choose_lib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_menu_item"
+        android:padding="24dp"
+        android:elevation="6dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_reserve_seat"
+            android:background="@drawable/bg_icon_circle"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="预约座位"
+            android:textSize="26sp"
+            android:textColor="#1A2033"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="24dp"/>
+
+    <!-- 我的预约 -->
+    <LinearLayout
+        android:id="@+id/btn_my_reserve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_menu_item"
+        android:padding="24dp"
+        android:elevation="6dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_my_reserve"
+            android:background="@drawable/bg_icon_circle"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的预约"
+            android:textSize="26sp"
+            android:textColor="#1A2033"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="24dp"/>
+
+    <!-- 个人中心 -->
+    <LinearLayout
+        android:id="@+id/btn_personal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_menu_item"
+        android:padding="24dp"
+        android:elevation="6dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_personal"
+            android:background="@drawable/bg_icon_circle"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人中心"
+            android:textSize="26sp"
+            android:textColor="#1A2033"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

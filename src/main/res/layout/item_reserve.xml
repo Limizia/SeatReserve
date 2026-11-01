@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_margin="8dp"
+    android:background="#EEEEEE">
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        style="?android:attr/buttonBarStyle">
+
+        <Button
+            android:id="@+id/btn_sign"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sign"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/btn_renew"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/renew"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/btn_release"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/release"
+            style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+
+</LinearLayout>
